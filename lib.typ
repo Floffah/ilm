@@ -34,6 +34,9 @@
   // More info: https://typst.app/docs/reference/foundations/datetime/#format
   date-format: "[month repr:long] [day padding:zero], [year repr:full]",
 
+  // Overwrite the documents body font
+  font: ("Libertinus Serif", "Linux Libertine"),
+
   // An abstract for your work. Can be omitted if you don't have one.
   abstract: none,
 
@@ -83,7 +86,7 @@
 
   // Set the body font.
   // Default is Linux Libertine at 11pt
-  set text(font: ("Libertinus Serif", "Linux Libertine"), size: 12pt)
+  set text(font: font, size: 12pt)
 
   // Set raw text font.
   // Default is Fira Mono at 8.8pt
